@@ -1,6 +1,6 @@
-package com.example.lld_patterns.singleton;
+package com.example.lld_patterns.singleton.dataBaseConnectionPool;
 
-public class SingletonDemo {
+public class ConnectionPoolMaker {
     public static void main(String[] args) {
         DatabaseConnectionPool pool1 = DatabaseConnectionPool.getInstance("pool1");
         DatabaseConnectionPool pool2 = DatabaseConnectionPool.getInstance("pool2");

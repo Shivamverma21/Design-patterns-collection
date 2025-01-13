@@ -1,4 +1,4 @@
-package com.example.lld_patterns.singleton;
+package com.example.lld_patterns.singleton.dataBaseConnectionPool;
 
 public class DatabaseConnectionPool {
     private static DatabaseConnectionPool instance;
